@@ -10,11 +10,13 @@ class TestProjectApplicationTests {
 
 	@Test
 	void contextLoads() {
+		String str = "abcd";
+		assertThat(str.length()).isEqualTo(4);
 	}
 	
 	@Test
 	public void countChar() {
 		String str = "abcd";
-		assertThat(4).isEqualTo(str.length());
+		assertThat(str.length()).isEqualTo(4);
 	}
 }
