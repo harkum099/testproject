@@ -11,12 +11,12 @@ class TestProjectApplicationTests {
 	@Test
 	void contextLoads() {
 		String str = "abcd";
-		assertEquals(4, str.length());
+		assertThat(str).isEqualTo("abcd");
 	}
 	
 	@Test
 	public void countChar() {
 		String str = "abcd";
-		assertEquals(4, str.length());
+		assertThat(str).isEqualTo("abcd");
 	}
 }
