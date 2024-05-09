@@ -8,7 +8,7 @@ public class TestProjectApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(TestProjectApplication.class, args);
-		System.err("Hello World!");
+		System.out.print("Hello World!");
 	}
 
 }
